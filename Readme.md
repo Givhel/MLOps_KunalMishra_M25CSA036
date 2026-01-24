@@ -53,14 +53,15 @@ Trained ResNet-18 and ResNet-50 (pretrained = False) on both datasets with 70-10
 
 ## Q2: CPU vs GPU Comparison (AMP Enabled on GPU)
 
-| Compute | Model | Optimizer | Epochs | Test Accuracy (%) | Training Time (ms) |
+**| Compute | Model | Optimizer | Epochs | Test Accuracy (%) | Training Time (ms) | FLOPs(GFLOPs)**
 |--------|------|----------|-------|------------------|-------------------|
-| CPU | ResNet-18 | SGD | 3 | 86.93 | 1851212.34 |
-| CPU | ResNet-18 | Adam | 3 | 88.08 | 2748829.62 |
-| CPU | ResNet-50 | SGD | 1 | 75.86 | 1395364.84 |
-| CPU | ResNet-50 | Adam | 1 | 70.91 | 1878685.74 |
-| GPU | ResNet-18 | SGD | 5 | 88.34 | 202796.74 |
-| GPU | ResNet-18 | Adam | 5 | 90.34 | 244300.73 |
-| GPU | ResNet-50 | SGD | 5 | 84.39 | 401587.10 |
-| GPU | ResNet-18 | Adam | 5 | 81.62 | 499694.68 |
+| CPU | ResNet-18 | SGD | 3 | 86.93 | 1851212.34 | 0.96 |
+| CPU | ResNet-18 | Adam | 3 | 88.08 | 2748829.62 | 0.96 |
+| CPU | ResNet-50 | SGD | 1 | 75.86 | 1395364.84 | 2.56 |
+| CPU | ResNet-50 | Adam | 1 | 70.91 | 1878685.74 | 2.56 |
+| GPU | ResNet-18 | SGD | 5 | 88.34 | 202796.74 | 0.96 |
+| GPU | ResNet-18 | Adam | 5 | 90.34 | 244300.73 | 0.96 |
+| GPU | ResNet-50 | SGD | 5 | 84.39 | 401587.10 | 2.56 |
+| GPU | ResNet-50 | Adam | 5 | 81.62 | 499694.68 | 2.56 |
 
+FLOPs were computed using THOP and represent training computation per batch (forward + backward) for batch size = 16.
