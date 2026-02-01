@@ -76,4 +76,3 @@ All visualizations are available through the provided WandB project link.
 
 ---
 
-## Project Structure
