@@ -57,7 +57,7 @@ Used Ray Tune with Optuna to tune:
 ## 📦 Model Weights
 Due to GitHub file size limitations (>100MB), the trained model is not uploaded directly.
 
-👉 You can access it here: **[Best Model.pth](https://drive.google.com/file/d/1ya5e7v1Ud_QBg6O1nQ2Yp3LEV6gAEpeh/view?usp=sharing)]**
+👉 You can access it here: **[Best Model.pth](https://drive.google.com/file/d/1ya5e7v1Ud_QBg6O1nQ2Yp3LEV6gAEpeh/view?usp=sharing)**
 
 ---
 
