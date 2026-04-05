@@ -10,7 +10,7 @@
 ## 🔗 Important Links
 - 📊 **WandB:** https://wandb.ai/kunalmishra8765-indian-institute-of-technology-jodhpur/DLops-Assignment-5
 - 🤗 **HuggingFace:** https://huggingface.co/101bytespeedkunal/dlops-assignment5-models
-- 📋 **Report:** M25CSA036_Kunal_Ass5.pdf
+- 📋 **Report:** M25CSA036_Kunal_Mishra_Ass5.pdf
 
 ---
 
