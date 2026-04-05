@@ -202,8 +202,21 @@ All training graphs, loss curves and accuracy plots are available on WandB:
 
 ---
 
+
 ## 🏆 Model Weights
 
+> **Note:** Best Q1 model weight (best_model_lora_r8_a8.pth) exceeds 
+> GitHub's 25MB file size limit and has been uploaded to HuggingFace instead.
+> All Q2 weights are available on GitHub directly.
+
+| Model | Size | Location |
+|-------|------|----------|
+| Best Q1 (LoRA Rank=8, Alpha=8) | >25MB | 🤗 HuggingFace: Q1/best_model_lora_r8_a8.pth |
+| Q2 ResNet18 Clean | >25MB | 🤗 HuggingFace: Q2/resnet18_clean.pth |
+| Q2 PGD Detector | <25MB | GitHub: Q2/detector_pgd.pth |
+| Q2 BIM Detector | <25MB | GitHub: Q2/detector_bim.pth |
+
+🤗 **HuggingFace Repository:** https://huggingface.co/101bytespeedkunal/dlops-assignment5-models
 | Model | Location |
 |-------|----------|
 | Best Q1 (LoRA Rank=8, Alpha=8) | 🤗 HuggingFace: Q1/best_model_lora_r8_a8.pth |
