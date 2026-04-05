@@ -67,6 +67,10 @@ pip install torch==2.1.0 torchvision==0.16.0 timm==0.9.12 peft==0.7.1 wandb==0.1
 
 ## 🚀 Q1 - ViT Fine-tuning on CIFAR-100
 
+#### 📈 Training Graphs
+All training graphs, loss curves and accuracy plots are available on WandB:
+👉 https://wandb.ai/kunalmishra8765-indian-institute-of-technology-jodhpur/DLops-Assignment-5
+
 ### Train without LoRA:
 ```bash
 cd Q1
@@ -172,6 +176,10 @@ python detector_bim.py
 ---
 
 ## 📊 Q2 Results
+
+#### 📈 Training Graphs
+All training graphs, loss curves and accuracy plots are available on WandB:
+👉 [Wandb Link](https://wandb.ai/kunalmishra8765-indian-institute-of-technology-jodhpur/DLops-Assignment-5)
 
 ### ResNet18 Clean Accuracy: 93.16% (Target: ≥72%) ✅
 
